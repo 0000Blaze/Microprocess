@@ -1,0 +1,5 @@
+# ORG 8000
+	   LXI D,2233
+	   LXI H,5566
+	   XCHG
+	   HLT

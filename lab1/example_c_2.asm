@@ -1,0 +1,8 @@
+# ORG 8000
+	   LHLD 8100
+	   SHLD 8200
+	   HLT
+# ORG 8100
+# DB AA
+# ORG 8101
+# DB BB

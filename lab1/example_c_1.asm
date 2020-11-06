@@ -1,0 +1,8 @@
+# ORG 8000
+	   LXI B,8090
+	   LXI D,80A0
+	   LDAX B
+	   STAX D
+	   HLT
+# ORG 8090
+# DB AA

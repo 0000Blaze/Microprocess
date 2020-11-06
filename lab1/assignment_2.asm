@@ -1,0 +1,5 @@
+# ORG 8000
+	   LXI B,AABB
+	   LXI D,CCDD
+	   LXI H,EEFF
+	   HLT

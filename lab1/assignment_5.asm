@@ -1,0 +1,16 @@
+# ORG 8000
+	   LDA 8050
+	   LXI B,2233
+	   LXI D,4455
+	   STA 9000
+	   MOV A,B
+	   STA 9001
+	   MOV A,C
+	   STA 9002
+	   MOV A,D
+	   STA 9003
+	   MOV A,E
+	   STA 9004
+	   HLT
+# ORG 8050H
+# DB 11H

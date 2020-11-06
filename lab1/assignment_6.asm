@@ -1,0 +1,9 @@
+# ORG 9000
+# DB 44H
+# ORG 9001
+# DB 66H
+# ORG 8000
+	   LHLD 9000
+	   SHLD 9050
+	   LXI H,0000
+	   HLT
