@@ -9,8 +9,10 @@
 # ORG 8000
 	   LHLD 80A2
 	   INR L
+	   INR H
 	   SHLD 80A2
 	   LHLD 80A4
 	   DCR L
+	   DCR H
 	   SHLD 80A4
 	   HLT
