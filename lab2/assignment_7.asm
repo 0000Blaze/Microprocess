@@ -1,0 +1,12 @@
+# ORG 818A
+# DB 29
+# ORG 818B
+# DB 45
+# ORG 8000
+	   LXI H,818A
+	   MOV A,M
+	   MVI L,8B
+	   ADD M
+	   DAA
+	STA 818C
+	   HLT
