@@ -1,0 +1,7 @@
+# ORG 9030
+# DB B0
+# ORG 8000
+	   LXI H,9030
+	   MOV A,M
+	   ANI 10
+	   HLT
