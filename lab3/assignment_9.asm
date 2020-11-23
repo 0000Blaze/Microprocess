@@ -3,8 +3,7 @@
 # ORG 8000
 	   LXI H,9025
 	   MOV A,M
-	   MVI B,20
-	   ANA B
+	   ANI 20
 	   RLC
 	   RLC
 	   OUT 40
