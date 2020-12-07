@@ -1,0 +1,15 @@
+# ORG 8000
+	   MVI B,32
+	   MVI C,00
+	   MVI A,00
+
+NXTCNT:	   ADD B
+	   JNC NOCARRY
+	   INR C
+
+NOCARRY:	   DCR B
+	   JNZ NXTCNT
+	   OUT 41
+	   MOV A,C
+	   OUT 40
+	   HLT

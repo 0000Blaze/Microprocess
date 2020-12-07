@@ -1,0 +1,12 @@
+# ORG 8000
+	   MVI A,55
+	   MVI C,00
+	   MVI B,08
+
+NXTBIT:	   RLC
+	   JNC SKIPINR
+	   INR C
+
+SKIPINR:	   DCR B
+	   JNZ NXTBIT
+	   HLT

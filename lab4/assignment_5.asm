@@ -1,0 +1,21 @@
+# ORG 8000
+	   MVI A,00
+	   MVI C,FF
+	   LXI H,DELAY
+	   LXI D,NXT
+
+NXTSEQ:	   OUT 40
+	   INR A
+	   PCHL
+
+NXT:	   XCHG
+	   CMP C
+	   JNZ NXTSEQ
+	   HLT
+
+DELAY:	   MVI B,FF
+
+NXTCNT:	   DCR B
+	   JNZ NXTSEQ
+	   XCHG
+	   PCHL

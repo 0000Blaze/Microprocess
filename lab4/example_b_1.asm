@@ -1,0 +1,11 @@
+# ORG 805A
+# DB 33
+# ORG 805B
+# DB 44
+# ORG 8000
+	   LXI D,1122
+	   LXI H,805A
+	   SPHL
+	   XCHG
+	   XTHL
+	   HLT
